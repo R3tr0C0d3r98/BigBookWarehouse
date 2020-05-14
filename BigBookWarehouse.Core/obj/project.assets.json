@@ -5264,11 +5264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj",
       "projectName": "BigBookWarehouse.Core",
-      "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj",
+      "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj",
       "packagesPath": "C:\\Users\\ajame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core\\obj\\",
+      "outputPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5288,8 +5288,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {
-              "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj"
+            "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {
+              "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj"
             }
           }
         }

@@ -15,9 +15,9 @@ namespace BigBookWarehouse.Core.Services.Books
         {
             return new Book[]
             {
-                new Book{Id = 0, Title = "Test Book", Overview = "Random Overview", Price = 10},
-                new Book{Id = 1, Title = "Example Book", Overview = "Example Overview", Price = 100},
-                new Book{Id = 2, Title = "Best Book", Overview = "Best Overview", Price = 1}
+                new Book{Id = 0, Title = "Test Book", Author = "Random Author", Rating = 10},
+                new Book{Id = 1, Title = "Example Book", Author = "Example Author", Rating = 15},
+                new Book{Id = 2, Title = "Best Book", Author = "Best Author", Rating = 1}
             };  
         }
     }

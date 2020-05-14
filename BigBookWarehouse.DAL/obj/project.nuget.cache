@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aU+ZvQ5NWdfGE2ytmyFhBvMaxsaUCePP4eXIJyedS7/eRx4dVKkG3nCEDCOswBdnGz5R78aJy0n/RJ/fQjjcxQ==",
+  "dgSpecHash": "6uGDFGHJzoKlZ6u+sEavN562Teu4vQIFNFzKS8PGCsiX+Y4TFj1zXdh5kCOUzEauQm2T6ID+NTM0XHoxyE2Bfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
+  "projectFilePath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ajame\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\ajame\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

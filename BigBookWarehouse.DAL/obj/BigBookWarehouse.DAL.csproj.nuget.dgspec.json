@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {}
+    "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {
+    "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
         "projectName": "BigBookWarehouse.DAL",
-        "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
+        "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\BigBookWarehouse.DAL.csproj",
         "packagesPath": "C:\\Users\\ajame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

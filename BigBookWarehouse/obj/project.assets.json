@@ -11,6 +11,31 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
+      "IdentityModel/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityServer4.Storage/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "4.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.4": {
         "type": "package",
         "dependencies": {
@@ -267,6 +292,15 @@
         },
         "build": {
           "build/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -1516,6 +1550,15 @@
           "ref/netstandard1.3/_._": {}
         }
       },
+      "System.Text.Encodings.Web/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "System.Threading/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1629,6 +1672,42 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "IdentityModel/4.1.1": {
+      "sha512": "l9YnaY3tkKbI3VHdU9Rhsk1RPTv6hvA5An6xE1DEYCMKrv+fQC0Z6mo+b/xyegpD6UJYbNhdkv5GF5tAMvPBNw==",
+      "type": "package",
+      "path": "identitymodel/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.4.1.1.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityServer4.Storage/3.1.3": {
+      "sha512": "tRt7aSTHQGXtSGEKDqXMl50AVw/xkxmIcEJtP1OZsHGOcrVwyMgMMUAjRhQrX0MCcvdJ7ZtMLfgn1gLZ09oSdw==",
+      "type": "package",
+      "path": "identityserver4.storage/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identityserver4.storage.3.1.3.nupkg.sha512",
+        "identityserver4.storage.nuspec",
+        "lib/netstandard2.0/IdentityServer4.Storage.dll",
+        "lib/netstandard2.0/IdentityServer4.Storage.pdb",
+        "lib/netstandard2.0/IdentityServer4.Storage.xml"
       ]
     },
     "Microsoft.AspNetCore.Authorization/3.1.4": {
@@ -1990,6 +2069,36 @@
         "mongodb.libmongocrypt.1.0.0.nupkg.sha512",
         "mongodb.libmongocrypt.nuspec",
         "x64/native/windows/mongocrypt.dll"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -5204,6 +5313,27 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Encodings.Web/4.6.0": {
+      "sha512": "BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.6.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Threading/4.3.0": {
       "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package",
@@ -5442,7 +5572,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BigBookWarehouse.Core >= 1.0.0",
-      "BigBookWarehouse.Core.Web >= 1.0.0"
+      "BigBookWarehouse.Core.Web >= 1.0.0",
+      "IdentityServer4.Storage >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -5452,11 +5583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Web.csproj",
+      "projectUniqueName": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse\\BigBookWarehouse.Web.csproj",
       "projectName": "BigBookWarehouse.Web",
-      "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Web.csproj",
+      "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse\\BigBookWarehouse.Web.csproj",
       "packagesPath": "C:\\Users\\ajame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse\\obj\\",
+      "outputPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5476,11 +5607,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj": {
-              "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj"
+            "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj": {
+              "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj"
             },
-            "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj": {
-              "projectPath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj"
+            "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj": {
+              "projectPath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core\\BigBookWarehouse.Core.csproj"
             }
           }
         }
@@ -5493,6 +5624,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "IdentityServer4.Storage": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

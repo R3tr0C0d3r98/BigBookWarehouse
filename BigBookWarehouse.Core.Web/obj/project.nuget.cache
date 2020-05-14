@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1xkynylCbz3rSeWVhartFbOyHWiHsSBUi64n5J4r73P/UIInDMM5D0HZ6tFlNdHhzWjUrPG0hZXhRtpAMFKIsQ==",
+  "dgSpecHash": "eeaIalaT2Irgfexx58OFWCwTuHvwIt0KYQTAUzQ6YNuSdcK0Go8/8d4XUoAc+063apFWNkdSsfIkefmR7Hh8/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ajame\\Desktop\\Csharp\\FinalProject\\BigBookWarehouse\\BigBookWarehouse\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj",
+  "projectFilePath": "C:\\Users\\ajame\\Documents\\College\\FinalProject\\BigBookWarehouse.Core.Web\\BigBookWarehouse.Core.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ajame\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\ajame\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.4\\microsoft.aspnetcore.authorization.3.1.4.nupkg.sha512",
