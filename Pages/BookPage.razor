@@ -1,0 +1,30 @@
+﻿@page "/book/{Id:int}"
+
+
+@using BigBookWarehouse.Core.Services.Books
+@using BigBookWarehouse.DAL.Models.Books
+@using BigBookWarehouse.Core.Web.Books
+
+<BookViewComponent Book="book"></BookViewComponent>
+
+@code {
+    [Inject]
+    public IBookService BookService { get; set; }
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private Book book;
+
+    protected override void OnInitialized()
+    {
+        book = BookService.GetBook().FirstOrDefault(x => x.Id == Id);
+        if(book == null)
+        {
+            NavigationManager.NavigateTo("/");
+            return;
+        }
+    }
+}
