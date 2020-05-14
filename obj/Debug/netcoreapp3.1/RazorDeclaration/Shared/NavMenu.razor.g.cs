@@ -5,7 +5,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BigBookWarehouse.Shared
+namespace BigBookWarehouse.Web.Shared
 {
     #line hidden
     using System;
@@ -71,7 +71,7 @@ using BigBookWarehouse;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\ajame\Desktop\Csharp\FinalProject\BigBookWarehouse\BigBookWarehouse\_Imports.razor"
-using BigBookWarehouse.Shared;
+using BigBookWarehouse.Web.Shared;
 
 #line default
 #line hidden

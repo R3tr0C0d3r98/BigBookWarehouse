@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BigBookWarehouse.Core.Services.Books;
 
-namespace BigBookWarehouse
+namespace BigBookWarehouse.Web
 {
     public class Startup
     {
